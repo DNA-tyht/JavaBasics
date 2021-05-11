@@ -1,0 +1,44 @@
+实验五 MV模式开发
+一、实验目的 1. 学习MV模式开发的方式和方法。 2. 具体掌握“JSP+JavaBean”的MV模式开发方式和方法。 3. 熟练运用Eclipse 创建Maven Project，开发基于MV模式实现的会 员管理系统示例相应的 JSP 组件、JavaBean 组件、HTML 组件及 访问数据库工具类、.css 等配套文件，并进行 Project 部署、运行 等操作处理。
+二、实验内容及步骤 1. 进行数据库初始化。 创建数据库 memmana 及其数据表 admin、news、user。具体
+地，通过编写文本文件 memmana.txt（如置于 D:\DB 下），并在 MySQL 命令行客户端运行“source D:\DB\memmana.txt”命令，创 建并选择数据库 memmana，再建立数据表 admin、news、user， 并分别往 admin、news、user 表中插入若干初始化数据记录。
+2. 创建、配置并部署 Maven Project MVMavenWeb。 首先，运行 Eclipse，参见“实验一项目指导书”中“二、实
+验内容及步骤”的第 7 步，创建名为 MVMavenWeb 的 Maven Project ，并进行 pom.xml 红叉符号相应处理，以及添加 mysql-connector-java-8.0.19 依赖包配置标签代码和“Apache Tomcat v8.5”服务器运行环境。其次，右键选择 Servers 视图中 Tomcat V8.5，并选择“Add and
+Remove→将项目 MVMavenWeb 从 Available 窗口中迁移至
+Configured 窗口中→Finish”，完成 MVMavenWeb 在 Tomcat 服务
+器中的部署。
+3. 在 Maven Project MVMavenWeb 中编写、部署、访问和实现基于
+MV模式的会员管理系统示例。
+会员管理系统 Project 结构示意图
+参照上述会员管理系统 Project 结构示意图，首先，创建并编
+写 JavaBean 类User.java 和访问数据库工具类MyDb.java。具体地，
+Eclipse 中鼠标右键选择MVMavenWeb，并依次选择“New→Class
+→Package:bean / Name:User→Finish”，类似地再依次选择“New→
+Class→Package:dao / Name:MyDb→Finish”，分别创建并编写
+User.java 和MyDb.java。
+其次，导入.css、.js、.jpg 等配套文件。具体地，Eclipse 中依
+次选择“MVMavenWeb→src→main→鼠标右键选择 webapp→New→Folder→Folder name:css→Finish”， 再依次选择“鼠标右键选择
+css→Import→General→File System→From directory:浏览选择
+adminIndex.css、header.css 和 wzys.css 所在的文件夹并勾选此三
+个.css 文件→Finish”，完成配套.css 文件的导入。类似地，完成 js
+文件夹的创建及其.js 文件的导入，以及 images 文件夹的创建及
+其.jpg 文件导入。
+随后，创建并编写各层级的 JSP 组件和HTML组件。具体地，
+Eclipse 中依次选择“MVMavenWeb→src→main→鼠标右键选择
+webapp→New→Folder→Folder name:views→Finish”，再依次选择
+“鼠标右键选择 views→New→Folder→Folder name:admin→
+Finish”和“鼠标右键选择 views→New→Folder→Folder name:public
+→Finish”，创建 webapp 下文件夹 views 及其 admin、public 子文
+件夹；进一步地，创建并编写 webapp 文件夹下的 index.jsp 和
+adminLogin.jsp 组件，views 文件夹下的mRegister.jsp、mLogin.jsp、
+mUpdate.jsp 和 mLogout.jsp 组件 ， admin 文 件 夹 下 的
+adminIndex.jsp、memInfo.jsp、memDelete.jsp、newsAdmin.jsp、
+newsUpload.jsp、adminLogout.jsp 和 adminIndex0.html 组件，以及
+public 文件夹下的 header.jsp、scrollingphos.jsp、footer.jsp 和
+index0.html 组件。
+最后，启动 Tomcat V8.5 ，在浏览器 URL 中输入
+“http://localhost:8080/MVMavenWeb/index.jsp”，依次查看程序会
+员注册、会员登录、信息修改、会员登出等项目功能能否正确运行 。 接下来 ， 在浏览器 URL 中 输入 并 运行 http://localhost:8080/MVMavenWeb/index.jsp 的界面中选择“管理 员登录”选项，查看会员信息、会员删除、新闻页面管理、新闻 页面上传、登出返回前台等项目后台功能能否正确运行。
+三、实验小结及思考 自行对实验中所遇到的问题及其解决方法进行归纳和小结，并具
+体体会基于“JSP+JavaBean”的 MV 模式所实现的会员管理系统的 Project 结构、厘清组件程序之间的调用关系。 最后，在 Eclipse 中，将上述 Maven Project “MVMavenWeb” 通过 Export 方式打包导出，并自行保存备查。
+2021.4.12

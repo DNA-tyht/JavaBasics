@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/1 - 基础语法/1 - 基础语法.iml" filepath="$PROJECT_DIR$/1 - 基础语法/1 - 基础语法.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10 - 网络编程/10 - 网络编程.iml" filepath="$PROJECT_DIR$/10 - 网络编程/10 - 网络编程.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2 - 面向对象/2 - 面向对象.iml" filepath="$PROJECT_DIR$/2 - 面向对象/2 - 面向对象.iml" />
+      <module fileurl="file://$PROJECT_DIR$/3 - 异常处理/3 - 异常处理.iml" filepath="$PROJECT_DIR$/3 - 异常处理/3 - 异常处理.iml" />
+      <module fileurl="file://$PROJECT_DIR$/4 - 多线程/4 - 多线程.iml" filepath="$PROJECT_DIR$/4 - 多线程/4 - 多线程.iml" />
+      <module fileurl="file://$PROJECT_DIR$/5 - 常用类/5 - 常用类.iml" filepath="$PROJECT_DIR$/5 - 常用类/5 - 常用类.iml" />
+      <module fileurl="file://$PROJECT_DIR$/6 - 枚举/6 - 枚举.iml" filepath="$PROJECT_DIR$/6 - 枚举/6 - 枚举.iml" />
+      <module fileurl="file://$PROJECT_DIR$/7 - 集合/7 - 集合.iml" filepath="$PROJECT_DIR$/7 - 集合/7 - 集合.iml" />
+      <module fileurl="file://$PROJECT_DIR$/8 - 泛型/8 - 泛型.iml" filepath="$PROJECT_DIR$/8 - 泛型/8 - 泛型.iml" />
+      <module fileurl="file://$PROJECT_DIR$/9 - IO流/9 - IO流.iml" filepath="$PROJECT_DIR$/9 - IO流/9 - IO流.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaBasic.iml" filepath="$PROJECT_DIR$/JavaBasic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Project/Project.iml" filepath="$PROJECT_DIR$/Project/Project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Project/Project1/Project1.iml" filepath="$PROJECT_DIR$/Project/Project1/Project1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Project/Project2/Project2.iml" filepath="$PROJECT_DIR$/Project/Project2/Project2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Project/Project3/Project3.iml" filepath="$PROJECT_DIR$/Project/Project3/Project3.iml" />
+    </modules>
+  </component>
+</project>
